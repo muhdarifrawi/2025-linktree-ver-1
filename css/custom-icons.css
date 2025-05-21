@@ -1,4 +1,8 @@
 .icon-props {
     font-size: 1.8rem;
-    color:black;
+    color:#0D6EFD;
+}
+
+.icon-props:hover {
+    color:#0b5ed7;
 }

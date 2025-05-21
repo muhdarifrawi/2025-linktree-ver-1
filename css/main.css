@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+}
+
+#main-title {
+    color:darkblue;
+}
+
+#subtitle {
+    color:darkblue;
+}
+
+#QrButton {
+    position: absolute;
+    top:25px;
+    right: 25px;
+}
+

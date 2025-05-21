@@ -12,35 +12,61 @@
     <!-- Bootstrap Icon CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- Custom/Personal CSS -->
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/custom-btn.css">
     <link rel="stylesheet" href="./css/custom-icons.css">
+    <link rel="stylesheet" href="./css/background-colors.css">
 </head>
 
-<body>
-    <div class="container-fluid py-5 text-center" id="header">
+<body class="d-flex flex-column">
+    <!-- Button trigger modal -->
+    <button type="button" id="QrButton" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#QrModal">
+        <i class="bi bi-qr-code-scan"></i>
+    </button>
+    <div class="container-fluid pt-5 pb-2 text-center" id="header">
         <img src="./images/cat-circle-25-sq.jpg" class="rounded" alt="shy cat">
         <div id="header-texts" class="py-3">
             <h1 id="main-title">Shy Cat</h1>
             <p id="subtitle">Your Friendly Neigbourhood Cat</p>
         </div>
     </div>
-    <div class="container-fluid d-flex align-items-center flex-column" id="content">
-        <a href="#" class="btn btn-secondary mb-3 custom-btn-size custom-btn-text" role="button">Main link</a>
-        <a href="#" class="btn btn-outline-secondary mb-3 custom-btn-size custom-btn-text" role="button">
-            <i class="bi bi-youtube me-3" style="font-size:1.5rem;"></i>
-            Example YouTube
-        </a>
-        <a href="#" class="btn btn-outline-secondary mb-3 custom-btn-size custom-btn-text" role="button">
-            <i class="bi bi-box-seam-fill me-3"></i> Example Affiliate
-        </a>
+    <div class="container-fluid pt-5 flex-grow-1" id="body-bg">
+        <div class="container-fluid d-flex align-items-center flex-column" id="content">
+            <a href="#" class="btn btn-primary mb-3 custom-btn-size custom-btn-text" role="button">Main link</a>
+            <a href="#" class="btn btn-outline-primary mb-3 custom-btn-size custom-btn-text" role="button">
+                <i class="bi bi-youtube me-3" style="font-size:1.5rem;"></i>
+                Example YouTube
+            </a>
+            <a href="./news.html" class="btn btn-outline-primary mb-3 custom-btn-size custom-btn-text" role="button">
+                <i class="bi bi-newspaper me-3"></i> Example News
+            </a>
+            <a href="#" class="btn btn-outline-primary mb-3 custom-btn-size custom-btn-text" role="button">
+                <i class="bi bi-box-seam-fill me-3"></i> Example Affiliate
+            </a>
+        </div>
+        <div class="container-fluid pt-3 pb-5 d-flex flex-row justify-content-center gap-3" id="footer">
+            <a href="#" title="whatsapp"><i class="bi bi-whatsapp icon-props"></i></a>
+            <a href="#" title="telegram"><i class="bi bi-telegram icon-props"></i></a>
+            <a href="#" title="tiktok"><i class="bi bi-tiktok icon-props"></i></a>
+            <a href="#" title="instagram"><i class="bi bi-instagram icon-props"></i></a>
+            <a href="#" title="facebook"><i class="bi bi-facebook icon-props"></i></a>
+            <a href="#" title="threads"><i class="bi bi-threads icon-props"></i></a>
+        </div>
     </div>
-    <div class="container-fluid py-3 d-flex flex-row justify-content-center gap-3" id="footer">
-        <a href="#" title="whatsapp"><i class="bi bi-whatsapp icon-props"></i></a>
-        <a href="#" title="telegram"><i class="bi bi-telegram icon-props"></i></a>
-        <a href="#" title="tiktok"><i class="bi bi-tiktok icon-props"></i></a>
-        <a href="#" title="instagram"><i class="bi bi-instagram icon-props"></i></a>
-        <a href="#" title="facebook"><i class="bi bi-facebook icon-props"></i></a>
-        <a href="#" title="threads"><i class="bi bi-threads icon-props"></i></a>
+    <!-- QR Modal -->
+    <div class="modal fade" id="QrModal" tabindex="-1" aria-labelledby="QrModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="QrModalLabel">Scan QR</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="./images/linktree-demo.png" class="img-thumbnail" alt="qr code">
+                    <p class="pt-3"><small class="text-body-secondary">https://muhdarifrawi.github.io/2025-linktree-ver-1/</small></p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"

@@ -61,3 +61,12 @@ You will need to deploy the project in GitHub for it to show up.
 ## Additional Suggestions
 If you don't wish to share such a long URL, you can try a URL shortener, buy a domain and implement it 
 in GitHub or generate a QR code to share around!
+
+## Resources
+Royalty Free Pictures: https://www.pexels.com
+CSS Gradient Generator: https://cssgradient.io/
+QR Generator: https://www.qr-code-generator.com/
+
+## Credits, Acknowledgements and thanks
+Thank you eberhard grossgasteiger for the sky photo.
+Photo by eberhard grossgasteiger: https://www.pexels.com/photo/scenic-view-of-sky-1367180/

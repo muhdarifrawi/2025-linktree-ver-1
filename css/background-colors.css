@@ -1,0 +1,14 @@
+#header {
+    background-image: url(../images/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body-bg {
+    background: linear-gradient(180deg, rgba(176, 233, 255, 1) 0%, rgba(102, 212, 255, 1) 50%, rgba(0, 183, 255, 1) 100%);
+}
+
+#news-page {
+    background: linear-gradient(180deg, rgba(176, 233, 255, 1) 0%, rgba(102, 212, 255, 1) 50%, rgba(0, 183, 255, 1) 100%);
+}

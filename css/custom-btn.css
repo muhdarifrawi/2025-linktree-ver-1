@@ -1,5 +1,11 @@
+@media (min-width: 576px) { 
+    .custom-btn-size {
+        width: 35vw !important;
+    }
+}
+
 .custom-btn-size {
-    width: 30vw;
+    width: 80vw;
     height:3.5rem;
 }
 
