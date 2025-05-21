@@ -7,7 +7,7 @@ the lack of customisation for your linktree.
 This simple code should help you to get started on customising your own linktree at no to low-cost.
 
 ## Caveats
-You will need to learn some simple HTML, CSS and very little JavaScript. 
+You will need to learn some simple HTML, CSS, very little JavaScript and understanding of Bootstrap. 
 
 ## How to use
 You will need a GitHub account. Find the the `fork` button somewhere on the top right. This will create a copy of this code to your account. 
@@ -54,3 +54,7 @@ You will need to deploy the project in GitHub for it to show up.
 
 |![pic-7](./readme-images/linktree-pic-7.png)|
 | - |
+
+## Additional Suggestions
+If you don't wish to share such a long URL, you can try a URL shortener, buy a domain and implement it 
+in GitHub or generate a QR code to share around!
